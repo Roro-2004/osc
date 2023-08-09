@@ -1,0 +1,50 @@
+task 1
+
+step 1
+
+mkdir "roaa lotfy"
+cd roaa/lotfy
+
+step 2
+
+mkdir documents
+cd documents
+touch file1.txt file2.txt file3.txt
+
+step 3
+
+cd ..
+touch .hidden_file
+ls 
+ls -a
+
+step 4
+cd documents
+nano file1.txt
+text 
+ctrl o 
+ctl x
+
+step 5
+cd ..
+
+step 6
+mkdir "-"
+cd documents/-
+
+step 7
+
+cp -r documents my_documents
+cd my_doucments
+ls 
+
+step 8
+less .hidden_file
+
+step 9 
+mv file2.txt ~/roaa\lotfy
+mv file3.txt ~/roaa\lotfy
+
+10
+cd ..
+rm -rf roaa\lotfy
