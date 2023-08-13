@@ -1,0 +1,27 @@
+task 2
+
+download file on linuix 
+
+install zip 
+
+read the README.md
+
+list the hidden files 
+
+tar -xf hidden file
+
+Read the README.md
+
+know tha file's type 
+
+rename the file to the extension gz
+
+use the gunzip to de compress 
+
+tar -xf level-2 
+
+cd level-2
+
+
+
+
