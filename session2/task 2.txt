@@ -4,6 +4,8 @@ download file on linuix
 
 install zip 
 
+unzip the file
+
 read the README.md
 
 list the hidden files 
@@ -22,6 +24,6 @@ tar -xf level-2
 
 cd level-2
 
-
+ls -a
 
 
