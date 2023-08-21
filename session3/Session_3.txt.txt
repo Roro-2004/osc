@@ -1,0 +1,37 @@
+Session_3.txt
+
+step1
+
+cereate new user by useradd
+cereate new group by addgroup
+sudo usermod -aG groupname username
+sudo usermod -aG sudo username
+su username
+
+step2
+
+mkdir permission_practice
+touch public_file.txt private_file.txt executable_script.sh
+chmod 666 public_file.txt
+chmod 600 private_file.txt
+chmod 750 executable_script.sh
+
+step3
+
+sudo chown kali public_file.txt
+sudo chgrp groupname public_file.txt
+
+step 4
+
+process name 
+ctrl z
+bg 
+pidof processname
+kill processname
+killall -s KILL processname 
+
+step 5
+
+
+sudo -apt install package_name
+sudo -apt remove packagename
